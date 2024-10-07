@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url("pinkclouds.jpg") repeat fixed
+}
+{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"}
+header{
+	background-color:azure;
+}
+#container{
+width: 800px; margin: 0 auto;
+	
+}
+.left{
+	width:380px;
+	height: 200px;
+	background-color:azure;
+	border-radius: 40px;
+	float:left;
+	padding: 35px 0px 20px 90px;
+	margin: 0px 10px 10px 10px
+	
+}
+.right{
+	width:380px;
+	height: 200px;
+	background-color:azure;
+	border-radius: 40px;
+	float:right;
+	margin: 0px 10px 10px 10px
+}
+footer{
+	background-color:azure;
+	clear: both;
+	text-align:end;
+	color:mediumorchid;
+	padding: 10px 10px 10px 10px;
+	border-radius: 40px;
+	
+}
+header > h1{
+	text-align: center;
+	color:mediumorchid;
+	border-radius: 40px;
+	
+}
+/*nav bar*/
+nav{
+	margin: 0 10px 20px 10px
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:deepskyblue;
+}
+
+nav li {
+  float: left;
+}
+/*nav bar*/
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 40px;
+  background-color:darkgrey;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color:mediumorchid;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: deepskyblue;
+}
+
+nav .active {
+  background-color:deepskyblue;
+}
+</style>
+</head>
+<body>
+
